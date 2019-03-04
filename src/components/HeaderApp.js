@@ -5,10 +5,9 @@ import HeaderMenu from './HeaderMenu.js';
 const HeaderApp = function(props){
 return(
 <header className="header">
-<HeaderBar />
+<HeaderBar pageTitle={props.pageTitle}/>
 <HeaderMenu />
 </header>
-
 );
 }
 
